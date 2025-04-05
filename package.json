@@ -1,7 +1,7 @@
 {
     "name": "coral-app",
     "version": "1.0.0",
-    "type": "module",
+    "type": "commonjs",
     "scripts": {
       "start": "catalyst start",
       "build": "catalyst build",

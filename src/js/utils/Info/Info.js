@@ -1,5 +1,5 @@
 import React from 'react';
-import css from './info.scss';
+import css from './Info.scss';
 
 const InfoCard = () => {
   return (

@@ -1,0 +1,249 @@
+/* Coral Themed Dashboard Styling */
+
+.coral-container {
+    padding: 40px;
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #38bdf8;
+    text-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
+  }
+  
+  .chart-section {
+    background-color: #1e293b;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(56, 189, 248, 0.1);
+  }
+  
+  .chart-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .chart-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #facc15;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .chart-title::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #facc15, transparent);
+    border-radius: 2px;
+  }
+  
+  .chart-row {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .half-chart {
+    flex: 1;
+    min-width: 400px;
+    background-color: #1e293b;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(250, 204, 21, 0.1);
+  }
+  
+  .half-chart:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Dashboard Controls Styling */
+  .dashboard-controls {
+    margin-bottom: 30px;
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .year-slider-container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .year-slider {
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: linear-gradient(90deg, #38bdf8, #facc15);
+    outline: none;
+    margin: 10px 0;
+  }
+  
+  .year-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #f8fafc;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+  }
+  
+  .year-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Toggle Buttons */
+  .toggle-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .toggle-button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #334155;
+    color: #f8fafc;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .toggle-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .toggle-button.active {
+    background-color: #38bdf8;
+    transform: translateY(-3px);
+  }
+  
+  /* Chart insights */
+  .chart-insight {
+    margin-top: 20px;
+    background-color: rgba(56, 189, 248, 0.1);
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-left: 4px solid #38bdf8;
+  }
+  
+  .insight-icon {
+    font-size: 24px;
+  }
+  
+  /* Data Insights Panel */
+  .data-insights-panel {
+    background-color: #1e293b;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .insights-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #38bdf8;
+  }
+  
+  .insights-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .insight-card {
+    flex: 1;
+    min-width: 200px;
+    background-color: #0f172a;
+    padding: 24px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .insight-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .insight-value {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    background: linear-gradient(45deg, #38bdf8, #4ade80);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .insight-label {
+    font-size: 14px;
+    color: #94a3b8;
+  }
+  
+  /* Hover effects for charts */
+  .bar-hover-effect:hover {
+    opacity: 0.8;
+  }
+  
+  .pie-cell-hover:hover {
+    opacity: 0.8;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .chart-row {
+      flex-direction: column;
+    }
+  
+    .half-chart {
+      min-width: 100%;
+    }
+  
+    .insights-content {
+      flex-direction: column;
+    }
+  
+    .coral-container {
+      padding: 20px;
+    }
+  }
+  

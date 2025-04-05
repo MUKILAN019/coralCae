@@ -23,3 +23,6 @@ npm run serve
 ## Documentation
 
 Explore the complete documentation at [https://catalyst.1mg.com](https://catalyst.1mg.com).
+
+## Video Link:
+[Video Link](https://drive.google.com/file/d/1up5ZcrbGfeLyk2r_KguVqYyUkGcI_OJC/view?usp=sharing)

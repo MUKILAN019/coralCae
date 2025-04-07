@@ -2,5 +2,6 @@ module.exports = {
     developmentPlugins: [],
     ssrPlugins: [],
     clientPlugins: [],
-    transpileModules: [],
-}
+    transpileModules: ['gsap'], // <-- add this line!
+  };
+  

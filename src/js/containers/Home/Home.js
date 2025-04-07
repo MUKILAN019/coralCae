@@ -4,7 +4,6 @@ import Footer from "../../components/Footer/Footer";
 import css from "./Home.scss";
 import Card from "../../utils/Cards/Cards";
 import InfoCard from "../../utils/Info/Info";
-import CoralChart from "../../components/CoralChart/CoralChart";
 
 
 

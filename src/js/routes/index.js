@@ -1,8 +1,8 @@
 import Home from "@containers/Home/Home"
 import About from "@containers/About/About"
 import Dashboard from "@containers/Dashboard/Dashboard"
-import Map from "@containers/Map/Map"
 import Landing from "@containers/LandingPage/LandingPage"
+
 const routes = [
     {
         path: "/Home",

@@ -1,11 +1,12 @@
 {
     "name": "coral-app",
     "version": "1.0.0",
+    
+
     "scripts": {
         "start": "catalyst start",
         "build": "catalyst build",
         "serve": "catalyst serve",
-        "lint": "eslint .",
         "devBuild": "catalyst devBuild",
         "devServe": "catalyst devServe"
     },
